@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                       * Markdown 格式
                    DESC
 
-  s.homepage     = "http://aoto.io/"
+  s.homepage     = "https://github.com/wukexiu"
   # s.screenshots  = "www.example.com/screenshots_1.gif"
   s.license      = "MIT"                #开源协议
   s.author             = { "wukexiu" => "290348331@qq.com" }
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   # s.source_files  = "O2View/*.swift"
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
   s.module_name = 'O2View'                #模块名称
 
