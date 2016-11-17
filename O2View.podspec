@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
   s.requires_arc = true                    #是否使用ARC
   
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   #s.source_files  = "O2View/*.swift"
