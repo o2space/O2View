@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true                    #是否使用ARC
   
   s.source_files  = "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
-  #s.source_files  = "O2View/*.swift"
+  # s.source_files  = "O2View/*.swift"
 
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
   s.module_name = 'O2View'                #模块名称
