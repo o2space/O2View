@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
   s.requires_arc = true                    #是否使用ARC
   
-  # s.source_files  = "Classes/StorageManager/*.{h,m}"
+  s.source_files  = "O2View/StorageManager/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
-  s.source_files  = "O2View/*.swift"
+  # s.source_files  = "O2View/*.swift"
 
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
   s.module_name = 'O2View'                #模块名称
