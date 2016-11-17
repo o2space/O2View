@@ -18,16 +18,16 @@ Pod::Spec.new do |s|
   ## 待测试通过完成后我们再发布指定release版本，使用如下方式
   #s.source       = { :git => "http://EXAMPLE/O2View.git", :tag => version }
 
-  s.platform     = :ios, "7.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
+  s.platform     = :ios, "9.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
   s.requires_arc = true                    #是否使用ARC
   
-  s.source_files  = "Classes/StorageManager/*.{h,m}"
+  # s.source_files  = "Classes/StorageManager/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
-  # s.source_files  = "O2View/*.swift"
+  s.source_files  = "O2View/*.swift"
 
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
-  #s.module_name = 'O2View'                #模块名称
+  s.module_name = 'O2View'                #模块名称
 
   # s.dependency "JSONKit", "~> 1.4"    #依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
 
